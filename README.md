@@ -1,6 +1,6 @@
 # Harbor Watch Together relay
 
-This is the relay behind Harbor's public Watch Together (pub.harbor.site). tiny, stateless, yours to run.
+This is the relay behind Harbor's **optional** public Watch Together (pub.harbor.site). tiny, stateless, yours to run. Use as baseline to host your own secure private instance. 
 
 It passes WT between people in the same room. play, pause, seek, chat, cursors, and drawings. that's all it touches. does not touch: accounts, streams, credentials, database, disk, and it never logs what people send. rooms live in memory and vanish when everyone leaves.
 
