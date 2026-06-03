@@ -1,0 +1,24 @@
+{
+  "name": "harbor-together-relay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone Harbor Watch Together relay (uWebSockets.js). Self-hostable.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "RELAY_HOST=127.0.0.1 RELAY_PORT=8080 node src/server.js",
+    "test": "node test/protocol.test.js",
+    "test:live": "node test/live.test.mjs",
+    "load": "node test/load.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0"
+  },
+  "devDependencies": {
+    "ws": "^8.21.0"
+  }
+}
